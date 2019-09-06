@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,600&display=swap&subset=korean");
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+  box-sizing: border-box; /* 패딩을 추가해줘도 박스밖으로 가지 않게 고정해주는 것 */
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  color: inherit; /* 링크의 색깔을 부모요소로부터 받아오는 건데 검정색으로 되어있음  */
+  text-decoration: none; /* 밑줄 지우기 */
+}
