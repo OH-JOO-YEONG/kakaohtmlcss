@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,600&display=swap&subset=korean");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,600&display=swap&subset=korean");
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 * {
   box-sizing: border-box; /* 패딩을 추가해줘도 박스밖으로 가지 않게 고정해주는 것 */

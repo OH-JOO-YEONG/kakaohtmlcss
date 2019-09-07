@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>채팅 | KaKao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:45</span>
@@ -40,7 +40,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           2019년 1월 11일 금요일
@@ -48,19 +48,35 @@
         <li class="incoming-message message">
           <img src="images/avatar.png" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">베프</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               카카오톡 클론 만들고 있니?
-            </div>
+            </span>
+            <span class="message__author">베프</span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
+            <span class="message__bubble">
               어 만들고 있어
-            </div>
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.png" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__bubble">
+              카카오톡 클론 만들고 있니?
+            </span>
+            <span class="message__author">베프</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <span class="message__bubble">
+              어 만들고 있어
+            </span>
           </div>
         </li>
       </ul>
